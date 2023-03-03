@@ -1,0 +1,57 @@
+.picture{
+    /* border: 3px solid blue; */
+    background-image: url("./product\ image.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: 50% 50%;
+    /* background-size: cover; */
+    width: 20%;
+    padding: 60px;
+    /* padding: 18%; */
+    /*
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* width: 50%;  */
+    /* background-color: hsl(277, 64%, 61%); */
+    /* background-blend-mode: darken; */ 
+
+}
+body{
+    background-color: #ECDFF2;
+}
+.text{
+    /* border: 3px solid red; */
+    padding: 60px;
+    width: 20%;
+    background-color: #FAFFEC;
+    
+
+}
+.mainframe{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    margin-top: 45px;
+
+}
+.h4{
+font-family: 'fraunces';
+}
+.money{
+    color:#0C594B;
+}
+#button{
+    width:80%;
+    height:60px;
+    border-radius: 5px;
+    background-color: #0C594B;
+    color:white;
+    padding: 10px 15px;
+}
+.icon{
+    height:14px;
+    width:40px;
+}
