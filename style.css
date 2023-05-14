@@ -6,6 +6,7 @@
     background-position: 50% 50%;
     /* background-size: cover; */
     width: 20%;
+    /* height:auto; */
     padding: 60px;
     /* padding: 18%; */
     /*
@@ -33,8 +34,10 @@ body{
     /* border: 3px solid black; */
     display: flex;
     justify-content: center;
-    height: 85vh;
+    /* height: 85vh; */
     margin-top: 45px;
+    /* flex-direction: column; */
+    
 
 }
 .h4{
@@ -55,3 +58,30 @@ font-family: 'fraunces';
     height:14px;
     width:40px;
 }
+/* mobile */
+@media only screen and (max-width:480px){
+    .picture{
+        /* border: 2px solid red; */
+        width:auto;
+        height: 200px;
+        /* max-width: 100%; */
+        /* background-size: cover; */
+        /* height:30px;  */
+    }
+    
+    .mainframe{
+        flex-direction: column;
+        margin-top: 30px;
+        border:2px solid blue;
+    }
+    .text{
+        padding: 10px;
+        width:auto;
+    }
+
+}
+/* tablets */
+@media only screen and (min-width:481px) and (max-width:786px){
+
+}
+/* @media only screen and */
